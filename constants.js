@@ -1,7 +1,7 @@
 // Options the user could type in
 const prompts = [
     ["bonjour", "salut", "hello", "coucou", "bonsoir"],
-    ["comment va?", "comment vas tu", "ca va"],
+    ["comment va", "comment vas tu", "ca va"],
     ["j'ai besoin d'aide", "Je suis en avance et je m'ennui en courq",
         "Je suis en retard et je ne comprend pas les cours", "je suis en avance",
         "je m'ennui en cours", "je suis en retard", "je ne comprend pas les cours"
@@ -13,6 +13,7 @@ const prompts = [
     ["merci", "merci beaucoup"],
     ["commencer"],
     ["professeur"],
+    ["eleve"],
     ["difficultes"],
     ["facilites"],
     ["maths"],
@@ -30,7 +31,7 @@ const replies = [
         "Super et toi?",
         "Top et toi ?"
     ],
-    ["Dans quelle matière ?", "Dans quelle cour ?", "Sur quelle sujet ?"],
+    ["Dans quelle matiere ?", "Dans quelle cour ?", "Sur quelle sujet ?"],
     ["Des exercices sont a ta disposition sur notre site internet : https://atisoutientscolaire.wixsite.com/atiatypique/coin-%C3%A9l%C3%A8ve",
         "Tu peux t'entrainer grace à cette page internet : https://atisoutientscolaire.wixsite.com/atiatypique/coin-%C3%A9l%C3%A8ve"
     ],
@@ -40,18 +41,19 @@ const replies = [
     ["Bonjour à toi ! Es-tu un professeur ou un eleve ? (Merci de repondre par eleve ou Professeur !)"],
     //Prof etc
     ["Un professeur ? Genial ! Ton eleve a-t-il des difficultes ou des facilites ? (Difficultes ou Facilites)"],
-    ["Des difficultes ? Très bien. En quoi ? Maths ou français ? (Maths ou Français)"],
-    ["Des  facilites ? Très bien. En quoi ? Maths ou français ? (Maths ou Français)"],
+    ["Un eleve ? Cool ! As tu des difficultes ou des facilites ? (difficultes ou facilites)"],
+    ["Des difficultes ? Tres bien. En quoi ? Maths ou français ? (maths ou français)"],
+    ["Des  facilites ? Tres bien. En quoi ? Maths ou français ? (maths ou français)"],
     //Maths et fr
     ["En maths ? Et bien, tu peux avoir des exercices personnalises sur notre site ! Ou peut-être veux-tu contacter un professionel ? (Oui ou Non)"],
     ["En français ? Et bien, tu peux avoir des exercices personnalises sur notre site ! Ou peut-être veux-tu contacter un professionel ? (Oui ou Non)"],
     // ouinon
-    ["Très bien, voici une liste de professionels que nous conseillons !",
+    ["Tres bien, voici une liste de professionels que nous conseillons !",
         "Julie Meau, Orthophoniste, 1 rue du Quartier",
         "Pauline Doliprane, Psychiatre specialisee precoce, 13 boulevard Doublon",
         "Maurice Yzer, Orthophoniste, 78 rue Buisson",
     ],
-    ["Très bien. Alors, bonne journee !"],
+    ["Tres bien. Alors, bonne journee !"],
 ]
 
 // Random for any other user input
