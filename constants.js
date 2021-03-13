@@ -13,8 +13,8 @@ const prompts = [
     ["merci", "merci beaucoup"],
     ["commencer"],
     ["professeur"],
-    ["difficultés"],
-    ["facilités"],
+    ["difficultes"],
+    ["facilites"],
     ["maths"],
     ["français"],
     ["oui"],
@@ -37,25 +37,25 @@ const replies = [
     ["Copie le lien puis met le sur un nouvel onglet"],
     ["De rien", "Je t'en prie"],
     //COMMENCER REP
-    ["Bonjour à toi ! Es-tu un professeur ou un eleve ? (Merci de répondre par Élève ou Professeur !)"],
+    ["Bonjour à toi ! Es-tu un professeur ou un eleve ? (Merci de repondre par eleve ou Professeur !)"],
     //Prof etc
-    ["Un professeur ? Génial ! Ton élève a-t-il des difficultés ou des facilités ? (Difficultés ou Facilités)"],
-    ["Des difficultés ? Très bien. En quoi ? Maths ou français ? (Maths ou Français)"],
-    ["Des  facilités ? Très bien. En quoi ? Maths ou français ? (Maths ou Français)"],
+    ["Un professeur ? Genial ! Ton eleve a-t-il des difficultes ou des facilites ? (Difficultes ou Facilites)"],
+    ["Des difficultes ? Très bien. En quoi ? Maths ou français ? (Maths ou Français)"],
+    ["Des  facilites ? Très bien. En quoi ? Maths ou français ? (Maths ou Français)"],
     //Maths et fr
-    ["En maths ? Et bien, tu peux avoir des exercices personnalisés sur notre site ! Ou peut-être veux-tu contacter un professionel ? (Oui ou Non)"],
-    ["En français ? Et bien, tu peux avoir des exercices personnalisés sur notre site ! Ou peut-être veux-tu contacter un professionel ? (Oui ou Non)"],
+    ["En maths ? Et bien, tu peux avoir des exercices personnalises sur notre site ! Ou peut-être veux-tu contacter un professionel ? (Oui ou Non)"],
+    ["En français ? Et bien, tu peux avoir des exercices personnalises sur notre site ! Ou peut-être veux-tu contacter un professionel ? (Oui ou Non)"],
     // ouinon
     ["Très bien, voici une liste de professionels que nous conseillons !",
         "Julie Meau, Orthophoniste, 1 rue du Quartier",
-        "Pauline Doliprane, Psychiatre spécialisée précoce, 13 boulevard Doublon",
+        "Pauline Doliprane, Psychiatre specialisee precoce, 13 boulevard Doublon",
         "Maurice Yzer, Orthophoniste, 78 rue Buisson",
     ],
-    ["Très bien. Alors, bonne journée !"],
+    ["Très bien. Alors, bonne journee !"],
 ]
 
 // Random for any other user input
 
 const alternative = [
-    "Je n'ai pas compris, essaye plutôt d'écrire commencer !"
+    "Je n'ai pas compris, essaye plutôt d'ecrire commencer !"
 ]
